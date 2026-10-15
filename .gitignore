@@ -1,0 +1,17 @@
+# Area de execucao das ferramentas: nao versionar (Guia 01)
+/work/*
+!/work/vcs/
+/work/vcs/*
+!/work/vcs/.gitkeep
+
+# Arquivos temporarios do VCS/Verdi que podem cair na raiz
+csrc/
+simv
+simv.daidir/
+ucli.key
+vc_hdrs.h
+*.vpd
+*.fsdb
+novas*
+verdiLog/
+DVEfiles/
