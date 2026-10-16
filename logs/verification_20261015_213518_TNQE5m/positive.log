@@ -1,0 +1,836 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2025
+Contains Synopsys proprietary information.
+Compiler version X-2025.06-SP2_Full64; Runtime version X-2025.06-SP2_Full64;  Oct 15 21:35 2026
+TAP_RUN mode=positive TCK_PERIOD_NS=20 SAMPLE_DELAY_NS=1
+
+Warning-[RT-NCMUCS] No condition matches in statement
+rtl/tap_fsm.sv, 44
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside tb_tap_fsm.dut, at time 0ps.
+
+
+Warning-[RT-NCMUCS] No condition matches in statement
+rtl/tap_fsm.sv, 44
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside tb_tap_fsm.dut, at time 0ps.
+
+TRACE cycle=1 time=51 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=2 time=71 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=3 time=91 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=4 time=111 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=5 time=131 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=6 time=151 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=7 time=171 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=8 time=191 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=9 time=211 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=10 time=231 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=11 time=251 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=12 time=271 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=13 time=291 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=14 time=311 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=15 time=331 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=16 time=351 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=17 time=371 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=18 time=391 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=19 time=411 ns phase=all_transitions from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=20 time=431 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=21 time=451 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=22 time=471 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=23 time=491 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=24 time=511 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=25 time=531 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=26 time=551 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=27 time=571 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=28 time=591 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=29 time=611 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=30 time=631 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=31 time=651 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=32 time=671 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=33 time=691 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=34 time=711 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=35 time=731 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=36 time=751 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=37 time=771 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=38 time=791 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=39 time=811 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=40 time=831 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=41 time=851 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=42 time=871 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=43 time=891 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=44 time=911 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=45 time=931 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=46 time=951 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=47 time=971 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=48 time=991 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=49 time=1011 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=50 time=1031 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=51 time=1051 ns phase=all_transitions from=Capture-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=52 time=1071 ns phase=all_transitions from=Shift-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=53 time=1091 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=54 time=1111 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=55 time=1131 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=56 time=1151 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=57 time=1171 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=58 time=1191 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=59 time=1211 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=60 time=1231 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=61 time=1251 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=62 time=1271 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=63 time=1291 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=64 time=1311 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=65 time=1331 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=66 time=1351 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=67 time=1371 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=68 time=1391 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=69 time=1411 ns phase=all_transitions from=Capture-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=70 time=1431 ns phase=all_transitions from=Shift-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=71 time=1451 ns phase=all_transitions from=Shift-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=72 time=1471 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=73 time=1491 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=74 time=1511 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=75 time=1531 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=76 time=1551 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=77 time=1571 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=78 time=1591 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=79 time=1611 ns phase=all_transitions from=Capture-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=80 time=1631 ns phase=all_transitions from=Shift-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=81 time=1651 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=82 time=1671 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=83 time=1691 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=84 time=1711 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=85 time=1731 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=86 time=1751 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=87 time=1771 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=88 time=1791 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=89 time=1811 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=90 time=1831 ns phase=all_transitions from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=91 time=1851 ns phase=all_transitions from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+TRACE cycle=92 time=1871 ns phase=all_transitions from=Exit2-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=93 time=1891 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=94 time=1911 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=95 time=1931 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=96 time=1951 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=97 time=1971 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=98 time=1991 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=99 time=2011 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=100 time=2031 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=101 time=2051 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=102 time=2071 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=103 time=2091 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=104 time=2111 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=105 time=2131 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=106 time=2151 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=107 time=2171 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=108 time=2191 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=109 time=2211 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=110 time=2231 ns phase=all_transitions from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=111 time=2251 ns phase=all_transitions from=Pause-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=112 time=2271 ns phase=all_transitions from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+TRACE cycle=113 time=2291 ns phase=all_transitions from=Exit2-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=114 time=2311 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=115 time=2331 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=116 time=2351 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=117 time=2371 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=118 time=2391 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=119 time=2411 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=120 time=2431 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=121 time=2451 ns phase=all_transitions from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=122 time=2471 ns phase=all_transitions from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+TRACE cycle=123 time=2491 ns phase=all_transitions from=Exit2-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=124 time=2511 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=125 time=2531 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=126 time=2551 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=127 time=2571 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=128 time=2591 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=129 time=2611 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=130 time=2631 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=131 time=2651 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=132 time=2671 ns phase=all_transitions from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=133 time=2691 ns phase=all_transitions from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+TRACE cycle=134 time=2711 ns phase=all_transitions from=Exit2-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=135 time=2731 ns phase=all_transitions from=Shift-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=136 time=2751 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=137 time=2771 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=138 time=2791 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=139 time=2811 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=140 time=2831 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=141 time=2851 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=142 time=2871 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=143 time=2891 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=144 time=2911 ns phase=all_transitions from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=145 time=2931 ns phase=all_transitions from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+TRACE cycle=146 time=2951 ns phase=all_transitions from=Exit2-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=147 time=2971 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=148 time=2991 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=149 time=3011 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=150 time=3031 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=151 time=3051 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=152 time=3071 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=153 time=3091 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=154 time=3111 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=155 time=3131 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=156 time=3151 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=157 time=3171 ns phase=all_transitions from=Update-DR TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=158 time=3191 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=159 time=3211 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=160 time=3231 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=161 time=3251 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=162 time=3271 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=163 time=3291 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=164 time=3311 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=165 time=3331 ns phase=all_transitions from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=166 time=3351 ns phase=all_transitions from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=167 time=3371 ns phase=all_transitions from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=168 time=3391 ns phase=all_transitions from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=169 time=3411 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=170 time=3431 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=171 time=3451 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=172 time=3471 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=173 time=3491 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=174 time=3511 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=175 time=3531 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=176 time=3551 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=177 time=3571 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=178 time=3591 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=179 time=3611 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=180 time=3631 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=181 time=3651 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=182 time=3671 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=183 time=3691 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=184 time=3711 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=185 time=3731 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=186 time=3751 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=187 time=3771 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=188 time=3791 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=189 time=3811 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=190 time=3831 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=191 time=3851 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=192 time=3871 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=193 time=3891 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=194 time=3911 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=195 time=3931 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=196 time=3951 ns phase=all_transitions from=Capture-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=197 time=3971 ns phase=all_transitions from=Shift-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=198 time=3991 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=199 time=4011 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=200 time=4031 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=201 time=4051 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=202 time=4071 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=203 time=4091 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=204 time=4111 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=205 time=4131 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=206 time=4151 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=207 time=4171 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=208 time=4191 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=209 time=4211 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=210 time=4231 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=211 time=4251 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=212 time=4271 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=213 time=4291 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=214 time=4311 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=215 time=4331 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=216 time=4351 ns phase=all_transitions from=Capture-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=217 time=4371 ns phase=all_transitions from=Shift-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=218 time=4391 ns phase=all_transitions from=Shift-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=219 time=4411 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=220 time=4431 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=221 time=4451 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=222 time=4471 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=223 time=4491 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=224 time=4511 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=225 time=4531 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=226 time=4551 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=227 time=4571 ns phase=all_transitions from=Capture-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=228 time=4591 ns phase=all_transitions from=Shift-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=229 time=4611 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=230 time=4631 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=231 time=4651 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=232 time=4671 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=233 time=4691 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=234 time=4711 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=235 time=4731 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=236 time=4751 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=237 time=4771 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=238 time=4791 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=239 time=4811 ns phase=all_transitions from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=240 time=4831 ns phase=all_transitions from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+TRACE cycle=241 time=4851 ns phase=all_transitions from=Exit2-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=242 time=4871 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=243 time=4891 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=244 time=4911 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=245 time=4931 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=246 time=4951 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=247 time=4971 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=248 time=4991 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=249 time=5011 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=250 time=5031 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=251 time=5051 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=252 time=5071 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=253 time=5091 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=254 time=5111 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=255 time=5131 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=256 time=5151 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=257 time=5171 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=258 time=5191 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=259 time=5211 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=260 time=5231 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=261 time=5251 ns phase=all_transitions from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=262 time=5271 ns phase=all_transitions from=Pause-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=263 time=5291 ns phase=all_transitions from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+TRACE cycle=264 time=5311 ns phase=all_transitions from=Exit2-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=265 time=5331 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=266 time=5351 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=267 time=5371 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=268 time=5391 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=269 time=5411 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=270 time=5431 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=271 time=5451 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=272 time=5471 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=273 time=5491 ns phase=all_transitions from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=274 time=5511 ns phase=all_transitions from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+TRACE cycle=275 time=5531 ns phase=all_transitions from=Exit2-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=276 time=5551 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=277 time=5571 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=278 time=5591 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=279 time=5611 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=280 time=5631 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=281 time=5651 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=282 time=5671 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=283 time=5691 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=284 time=5711 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=285 time=5731 ns phase=all_transitions from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=286 time=5751 ns phase=all_transitions from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+TRACE cycle=287 time=5771 ns phase=all_transitions from=Exit2-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=288 time=5791 ns phase=all_transitions from=Shift-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=289 time=5811 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=290 time=5831 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=291 time=5851 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=292 time=5871 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=293 time=5891 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=294 time=5911 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=295 time=5931 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=296 time=5951 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=297 time=5971 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=298 time=5991 ns phase=all_transitions from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=299 time=6011 ns phase=all_transitions from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+TRACE cycle=300 time=6031 ns phase=all_transitions from=Exit2-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=301 time=6051 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=302 time=6071 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=303 time=6091 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=304 time=6111 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=305 time=6131 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=306 time=6151 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=307 time=6171 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=308 time=6191 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=309 time=6211 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=310 time=6231 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=311 time=6251 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=312 time=6271 ns phase=all_transitions from=Update-IR TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=313 time=6291 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=314 time=6311 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=315 time=6331 ns phase=all_transitions from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=316 time=6351 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=317 time=6371 ns phase=all_transitions from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=318 time=6391 ns phase=all_transitions from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=319 time=6411 ns phase=all_transitions from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=320 time=6431 ns phase=all_transitions from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=321 time=6451 ns phase=all_transitions from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=322 time=6471 ns phase=all_transitions from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=323 time=6491 ns phase=all_transitions from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=324 time=6511 ns phase=all_transitions from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=325 time=6531 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=326 time=6551 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=327 time=6571 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=328 time=6591 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=329 time=6611 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=330 time=6631 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=331 time=6651 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=332 time=6671 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=333 time=6691 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=334 time=6711 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Test-Logic-Reset result=OK
+TRACE cycle=335 time=6731 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=336 time=6751 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=337 time=6771 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=338 time=6791 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=339 time=6811 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=340 time=6831 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=341 time=6851 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=342 time=6871 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=343 time=6891 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=344 time=6911 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=345 time=6931 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Run-Test/Idle result=OK
+TRACE cycle=346 time=6951 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=347 time=6971 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=348 time=6991 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=349 time=7011 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=350 time=7031 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=351 time=7051 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=352 time=7071 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=353 time=7091 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=354 time=7111 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=355 time=7131 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=356 time=7151 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=357 time=7171 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Select-DR-Scan result=OK
+TRACE cycle=358 time=7191 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=359 time=7211 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=360 time=7231 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=361 time=7251 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=362 time=7271 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=363 time=7291 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=364 time=7311 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=365 time=7331 ns phase=reset_recovery from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=366 time=7351 ns phase=reset_recovery from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=367 time=7371 ns phase=reset_recovery from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=368 time=7391 ns phase=reset_recovery from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=369 time=7411 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=370 time=7431 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Capture-DR result=OK
+TRACE cycle=371 time=7451 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=372 time=7471 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=373 time=7491 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=374 time=7511 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=375 time=7531 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=376 time=7551 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=377 time=7571 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=378 time=7591 ns phase=reset_recovery from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=379 time=7611 ns phase=reset_recovery from=Capture-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=380 time=7631 ns phase=reset_recovery from=Shift-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=381 time=7651 ns phase=reset_recovery from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=382 time=7671 ns phase=reset_recovery from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=383 time=7691 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=384 time=7711 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Shift-DR result=OK
+TRACE cycle=385 time=7731 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=386 time=7751 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=387 time=7771 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=388 time=7791 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=389 time=7811 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=390 time=7831 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=391 time=7851 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=392 time=7871 ns phase=reset_recovery from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=393 time=7891 ns phase=reset_recovery from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=394 time=7911 ns phase=reset_recovery from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=395 time=7931 ns phase=reset_recovery from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=396 time=7951 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=397 time=7971 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=398 time=7991 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Exit1-DR result=OK
+TRACE cycle=399 time=8011 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=400 time=8031 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=401 time=8051 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=402 time=8071 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=403 time=8091 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=404 time=8111 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=405 time=8131 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=406 time=8151 ns phase=reset_recovery from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=407 time=8171 ns phase=reset_recovery from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=408 time=8191 ns phase=reset_recovery from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=409 time=8211 ns phase=reset_recovery from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+TRACE cycle=410 time=8231 ns phase=reset_recovery from=Exit2-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=411 time=8251 ns phase=reset_recovery from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=412 time=8271 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=413 time=8291 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Pause-DR result=OK
+TRACE cycle=414 time=8311 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=415 time=8331 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=416 time=8351 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=417 time=8371 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=418 time=8391 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=419 time=8411 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=420 time=8431 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=421 time=8451 ns phase=reset_recovery from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=422 time=8471 ns phase=reset_recovery from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=423 time=8491 ns phase=reset_recovery from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=424 time=8511 ns phase=reset_recovery from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+TRACE cycle=425 time=8531 ns phase=reset_recovery from=Exit2-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=426 time=8551 ns phase=reset_recovery from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=427 time=8571 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=428 time=8591 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=429 time=8611 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Exit2-DR result=OK
+TRACE cycle=430 time=8631 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=431 time=8651 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=432 time=8671 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=433 time=8691 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=434 time=8711 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=435 time=8731 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=436 time=8751 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=437 time=8771 ns phase=reset_recovery from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=438 time=8791 ns phase=reset_recovery from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=439 time=8811 ns phase=reset_recovery from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=440 time=8831 ns phase=reset_recovery from=Update-DR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=441 time=8851 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=442 time=8871 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=443 time=8891 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=444 time=8911 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Update-DR result=OK
+TRACE cycle=445 time=8931 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=446 time=8951 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=447 time=8971 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=448 time=8991 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=449 time=9011 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=450 time=9031 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=451 time=9051 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=452 time=9071 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=453 time=9091 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=454 time=9111 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=455 time=9131 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=456 time=9151 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=457 time=9171 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Select-IR-Scan result=OK
+TRACE cycle=458 time=9191 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=459 time=9211 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=460 time=9231 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=461 time=9251 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=462 time=9271 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=463 time=9291 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=464 time=9311 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=465 time=9331 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=466 time=9351 ns phase=reset_recovery from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=467 time=9371 ns phase=reset_recovery from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=468 time=9391 ns phase=reset_recovery from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=469 time=9411 ns phase=reset_recovery from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=470 time=9431 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=471 time=9451 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Capture-IR result=OK
+TRACE cycle=472 time=9471 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=473 time=9491 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=474 time=9511 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=475 time=9531 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=476 time=9551 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=477 time=9571 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=478 time=9591 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=479 time=9611 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=480 time=9631 ns phase=reset_recovery from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=481 time=9651 ns phase=reset_recovery from=Capture-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=482 time=9671 ns phase=reset_recovery from=Shift-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=483 time=9691 ns phase=reset_recovery from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=484 time=9711 ns phase=reset_recovery from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=485 time=9731 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=486 time=9751 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Shift-IR result=OK
+TRACE cycle=487 time=9771 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=488 time=9791 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=489 time=9811 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=490 time=9831 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=491 time=9851 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=492 time=9871 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=493 time=9891 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=494 time=9911 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=495 time=9931 ns phase=reset_recovery from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=496 time=9951 ns phase=reset_recovery from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=497 time=9971 ns phase=reset_recovery from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=498 time=9991 ns phase=reset_recovery from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=499 time=10011 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=500 time=10031 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=501 time=10051 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Exit1-IR result=OK
+TRACE cycle=502 time=10071 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=503 time=10091 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=504 time=10111 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=505 time=10131 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=506 time=10151 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=507 time=10171 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=508 time=10191 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=509 time=10211 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=510 time=10231 ns phase=reset_recovery from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=511 time=10251 ns phase=reset_recovery from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=512 time=10271 ns phase=reset_recovery from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=513 time=10291 ns phase=reset_recovery from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+TRACE cycle=514 time=10311 ns phase=reset_recovery from=Exit2-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=515 time=10331 ns phase=reset_recovery from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=516 time=10351 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=517 time=10371 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Pause-IR result=OK
+TRACE cycle=518 time=10391 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=519 time=10411 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=520 time=10431 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=521 time=10451 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=522 time=10471 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=523 time=10491 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=524 time=10511 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=525 time=10531 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=526 time=10551 ns phase=reset_recovery from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=527 time=10571 ns phase=reset_recovery from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=528 time=10591 ns phase=reset_recovery from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=529 time=10611 ns phase=reset_recovery from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+TRACE cycle=530 time=10631 ns phase=reset_recovery from=Exit2-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=531 time=10651 ns phase=reset_recovery from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=532 time=10671 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=533 time=10691 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=534 time=10711 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Exit2-IR result=OK
+TRACE cycle=535 time=10731 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=536 time=10751 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=537 time=10771 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=538 time=10791 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=539 time=10811 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=540 time=10831 ns phase=reset_recovery from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=541 time=10851 ns phase=reset_recovery from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=542 time=10871 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=543 time=10891 ns phase=reset_recovery from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=544 time=10911 ns phase=reset_recovery from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=545 time=10931 ns phase=reset_recovery from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=546 time=10951 ns phase=reset_recovery from=Update-IR TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=547 time=10971 ns phase=reset_recovery from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=548 time=10991 ns phase=reset_recovery from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=549 time=11011 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=550 time=11031 ns phase=reset_recovery from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+RESET_RECOVERY from=Update-IR result=OK
+TRACE cycle=551 time=11051 ns phase=idle_hold from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=552 time=11071 ns phase=idle_hold from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=553 time=11091 ns phase=idle_hold from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=554 time=11111 ns phase=idle_hold from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=555 time=11131 ns phase=idle_hold from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=556 time=11151 ns phase=idle_hold from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=557 time=11171 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=558 time=11191 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=559 time=11211 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=560 time=11231 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=561 time=11251 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=562 time=11271 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=563 time=11291 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=564 time=11311 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=565 time=11331 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=566 time=11351 ns phase=idle_hold from=Run-Test/Idle TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=567 time=11371 ns phase=dr_pause_resume from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=568 time=11391 ns phase=dr_pause_resume from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=569 time=11411 ns phase=dr_pause_resume from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=570 time=11431 ns phase=dr_pause_resume from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=571 time=11451 ns phase=dr_pause_resume from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=572 time=11471 ns phase=dr_pause_resume from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=573 time=11491 ns phase=dr_pause_resume from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=574 time=11511 ns phase=dr_pause_resume from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=575 time=11531 ns phase=dr_pause_resume from=Capture-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=576 time=11551 ns phase=dr_pause_resume from=Shift-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=577 time=11571 ns phase=dr_pause_resume from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=578 time=11591 ns phase=dr_pause_resume from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+TRACE cycle=579 time=11611 ns phase=dr_pause_resume from=Exit2-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=580 time=11631 ns phase=dr_pause_resume from=Shift-DR TMS=0 expected=Shift-DR observed=2
+TRACE cycle=581 time=11651 ns phase=dr_pause_resume from=Shift-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=582 time=11671 ns phase=dr_pause_resume from=Exit1-DR TMS=1 expected=Update-DR observed=5
+TRACE cycle=583 time=11691 ns phase=dr_pause_resume from=Update-DR TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=584 time=11711 ns phase=ir_pause_resume from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=585 time=11731 ns phase=ir_pause_resume from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=586 time=11751 ns phase=ir_pause_resume from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=587 time=11771 ns phase=ir_pause_resume from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=588 time=11791 ns phase=ir_pause_resume from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=589 time=11811 ns phase=ir_pause_resume from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=590 time=11831 ns phase=ir_pause_resume from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=591 time=11851 ns phase=ir_pause_resume from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=592 time=11871 ns phase=ir_pause_resume from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=593 time=11891 ns phase=ir_pause_resume from=Capture-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=594 time=11911 ns phase=ir_pause_resume from=Shift-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=595 time=11931 ns phase=ir_pause_resume from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=596 time=11951 ns phase=ir_pause_resume from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+TRACE cycle=597 time=11971 ns phase=ir_pause_resume from=Exit2-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=598 time=11991 ns phase=ir_pause_resume from=Shift-IR TMS=0 expected=Shift-IR observed=a
+TRACE cycle=599 time=12011 ns phase=ir_pause_resume from=Shift-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=600 time=12031 ns phase=ir_pause_resume from=Exit1-IR TMS=1 expected=Update-IR observed=d
+TRACE cycle=601 time=12051 ns phase=ir_pause_resume from=Update-IR TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=602 time=12071 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=603 time=12091 ns phase=async_reset from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=604 time=12111 ns phase=async_reset from=Select-IR-Scan TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=605 time=12131 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=606 time=12151 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+ASYNC_RESET from=Test-Logic-Reset result=OK
+TRACE cycle=607 time=12191 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=608 time=12211 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=609 time=12231 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=610 time=12251 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=611 time=12271 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=612 time=12291 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+ASYNC_RESET from=Run-Test/Idle result=OK
+TRACE cycle=613 time=12331 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=614 time=12351 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=615 time=12371 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=616 time=12391 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=617 time=12411 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=618 time=12431 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=619 time=12451 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+ASYNC_RESET from=Select-DR-Scan result=OK
+TRACE cycle=620 time=12491 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=621 time=12511 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=622 time=12531 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=623 time=12551 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=624 time=12571 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=625 time=12591 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=626 time=12611 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=627 time=12631 ns phase=async_reset from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+ASYNC_RESET from=Capture-DR result=OK
+TRACE cycle=628 time=12671 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=629 time=12691 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=630 time=12711 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=631 time=12731 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=632 time=12751 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=633 time=12771 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=634 time=12791 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=635 time=12811 ns phase=async_reset from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=636 time=12831 ns phase=async_reset from=Capture-DR TMS=0 expected=Shift-DR observed=2
+ASYNC_RESET from=Shift-DR result=OK
+TRACE cycle=637 time=12871 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=638 time=12891 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=639 time=12911 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=640 time=12931 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=641 time=12951 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=642 time=12971 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=643 time=12991 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=644 time=13011 ns phase=async_reset from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=645 time=13031 ns phase=async_reset from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+ASYNC_RESET from=Exit1-DR result=OK
+TRACE cycle=646 time=13071 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=647 time=13091 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=648 time=13111 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=649 time=13131 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=650 time=13151 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=651 time=13171 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=652 time=13191 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=653 time=13211 ns phase=async_reset from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=654 time=13231 ns phase=async_reset from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=655 time=13251 ns phase=async_reset from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+ASYNC_RESET from=Pause-DR result=OK
+TRACE cycle=656 time=13291 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=657 time=13311 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=658 time=13331 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=659 time=13351 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=660 time=13371 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=661 time=13391 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=662 time=13411 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=663 time=13431 ns phase=async_reset from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=664 time=13451 ns phase=async_reset from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=665 time=13471 ns phase=async_reset from=Exit1-DR TMS=0 expected=Pause-DR observed=3
+TRACE cycle=666 time=13491 ns phase=async_reset from=Pause-DR TMS=1 expected=Exit2-DR observed=0
+ASYNC_RESET from=Exit2-DR result=OK
+TRACE cycle=667 time=13531 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=668 time=13551 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=669 time=13571 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=670 time=13591 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=671 time=13611 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=672 time=13631 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=673 time=13651 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=674 time=13671 ns phase=async_reset from=Select-DR-Scan TMS=0 expected=Capture-DR observed=6
+TRACE cycle=675 time=13691 ns phase=async_reset from=Capture-DR TMS=1 expected=Exit1-DR observed=1
+TRACE cycle=676 time=13711 ns phase=async_reset from=Exit1-DR TMS=1 expected=Update-DR observed=5
+ASYNC_RESET from=Update-DR result=OK
+TRACE cycle=677 time=13751 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=678 time=13771 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=679 time=13791 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=680 time=13811 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=681 time=13831 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=682 time=13851 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=683 time=13871 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=684 time=13891 ns phase=async_reset from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+ASYNC_RESET from=Select-IR-Scan result=OK
+TRACE cycle=685 time=13931 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=686 time=13951 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=687 time=13971 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=688 time=13991 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=689 time=14011 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=690 time=14031 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=691 time=14051 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=692 time=14071 ns phase=async_reset from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=693 time=14091 ns phase=async_reset from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+ASYNC_RESET from=Capture-IR result=OK
+TRACE cycle=694 time=14131 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=695 time=14151 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=696 time=14171 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=697 time=14191 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=698 time=14211 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=699 time=14231 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=700 time=14251 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=701 time=14271 ns phase=async_reset from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=702 time=14291 ns phase=async_reset from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=703 time=14311 ns phase=async_reset from=Capture-IR TMS=0 expected=Shift-IR observed=a
+ASYNC_RESET from=Shift-IR result=OK
+TRACE cycle=704 time=14351 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=705 time=14371 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=706 time=14391 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=707 time=14411 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=708 time=14431 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=709 time=14451 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=710 time=14471 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=711 time=14491 ns phase=async_reset from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=712 time=14511 ns phase=async_reset from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=713 time=14531 ns phase=async_reset from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+ASYNC_RESET from=Exit1-IR result=OK
+TRACE cycle=714 time=14571 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=715 time=14591 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=716 time=14611 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=717 time=14631 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=718 time=14651 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=719 time=14671 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=720 time=14691 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=721 time=14711 ns phase=async_reset from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=722 time=14731 ns phase=async_reset from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=723 time=14751 ns phase=async_reset from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=724 time=14771 ns phase=async_reset from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+ASYNC_RESET from=Pause-IR result=OK
+TRACE cycle=725 time=14811 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=726 time=14831 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=727 time=14851 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=728 time=14871 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=729 time=14891 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=730 time=14911 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=731 time=14931 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=732 time=14951 ns phase=async_reset from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=733 time=14971 ns phase=async_reset from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=734 time=14991 ns phase=async_reset from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=735 time=15011 ns phase=async_reset from=Exit1-IR TMS=0 expected=Pause-IR observed=b
+TRACE cycle=736 time=15031 ns phase=async_reset from=Pause-IR TMS=1 expected=Exit2-IR observed=8
+ASYNC_RESET from=Exit2-IR result=OK
+TRACE cycle=737 time=15071 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=738 time=15091 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=739 time=15111 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=740 time=15131 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=741 time=15151 ns phase=async_reset from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=742 time=15171 ns phase=async_reset from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+TRACE cycle=743 time=15191 ns phase=async_reset from=Run-Test/Idle TMS=1 expected=Select-DR-Scan observed=7
+TRACE cycle=744 time=15211 ns phase=async_reset from=Select-DR-Scan TMS=1 expected=Select-IR-Scan observed=4
+TRACE cycle=745 time=15231 ns phase=async_reset from=Select-IR-Scan TMS=0 expected=Capture-IR observed=e
+TRACE cycle=746 time=15251 ns phase=async_reset from=Capture-IR TMS=1 expected=Exit1-IR observed=9
+TRACE cycle=747 time=15271 ns phase=async_reset from=Exit1-IR TMS=1 expected=Update-IR observed=d
+ASYNC_RESET from=Update-IR result=OK
+COVERAGE from=Test-Logic-Reset TMS=0 to=Run-Test/Idle hits=64
+COVERAGE from=Test-Logic-Reset TMS=1 to=Test-Logic-Reset hits=234
+COVERAGE from=Run-Test/Idle TMS=0 to=Run-Test/Idle hits=11
+COVERAGE from=Run-Test/Idle TMS=1 to=Select-DR-Scan hits=67
+COVERAGE from=Select-DR-Scan TMS=0 to=Capture-DR hits=26
+COVERAGE from=Select-DR-Scan TMS=1 to=Select-IR-Scan hits=76
+COVERAGE from=Capture-DR TMS=0 to=Shift-DR hits=6
+COVERAGE from=Capture-DR TMS=1 to=Exit1-DR hits=19
+COVERAGE from=Shift-DR TMS=0 to=Shift-DR hits=2
+COVERAGE from=Shift-DR TMS=1 to=Exit1-DR hits=7
+COVERAGE from=Exit1-DR TMS=0 to=Pause-DR hits=10
+COVERAGE from=Exit1-DR TMS=1 to=Update-DR hits=15
+COVERAGE from=Pause-DR TMS=0 to=Pause-DR hits=1
+COVERAGE from=Pause-DR TMS=1 to=Exit2-DR hits=9
+COVERAGE from=Exit2-DR TMS=0 to=Shift-DR hits=2
+COVERAGE from=Exit2-DR TMS=1 to=Update-DR hits=6
+COVERAGE from=Update-DR TMS=0 to=Run-Test/Idle hits=2
+COVERAGE from=Update-DR TMS=1 to=Select-DR-Scan hits=18
+COVERAGE from=Select-IR-Scan TMS=0 to=Capture-IR hits=26
+COVERAGE from=Select-IR-Scan TMS=1 to=Test-Logic-Reset hits=49
+COVERAGE from=Capture-IR TMS=0 to=Shift-IR hits=6
+COVERAGE from=Capture-IR TMS=1 to=Exit1-IR hits=19
+COVERAGE from=Shift-IR TMS=0 to=Shift-IR hits=2
+COVERAGE from=Shift-IR TMS=1 to=Exit1-IR hits=7
+COVERAGE from=Exit1-IR TMS=0 to=Pause-IR hits=10
+COVERAGE from=Exit1-IR TMS=1 to=Update-IR hits=15
+COVERAGE from=Pause-IR TMS=0 to=Pause-IR hits=1
+COVERAGE from=Pause-IR TMS=1 to=Exit2-IR hits=9
+COVERAGE from=Exit2-IR TMS=0 to=Shift-IR hits=2
+COVERAGE from=Exit2-IR TMS=1 to=Update-IR hits=6
+COVERAGE from=Update-IR TMS=0 to=Run-Test/Idle hits=2
+COVERAGE from=Update-IR TMS=1 to=Select-DR-Scan hits=18
+TAP_POSITIVE_PASS transitions=32/32 reset_cases=16/16 async_reset_cases=16/16 cycles=747 state_checks=1528 indicator_bit_checks=10696 stability_samples=747
+$finish called from file "tb/tb_tap_fsm.sv", line 237.
+$finish at simulation time   15282 ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 15282000 ps
+CPU Time:      0.380 seconds;       Data structure size:   0.0Mb
+Thu Oct 15 21:35:20 2026

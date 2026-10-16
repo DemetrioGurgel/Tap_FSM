@@ -1,0 +1,32 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2025
+Contains Synopsys proprietary information.
+Compiler version X-2025.06-SP2_Full64; Runtime version X-2025.06-SP2_Full64;  Oct 15 21:35 2026
+TAP_RUN mode=negative TCK_PERIOD_NS=20 SAMPLE_DELAY_NS=1
+
+Warning-[RT-NCMUCS] No condition matches in statement
+rtl/tap_fsm.sv, 44
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside tb_tap_fsm.dut, at time 0ps.
+
+
+Warning-[RT-NCMUCS] No condition matches in statement
+rtl/tap_fsm.sv, 44
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside tb_tap_fsm.dut, at time 0ps.
+
+TRACE cycle=1 time=51 ns phase=negative_expectation from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=2 time=71 ns phase=negative_expectation from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=3 time=91 ns phase=negative_expectation from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=4 time=111 ns phase=negative_expectation from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=5 time=131 ns phase=negative_expectation from=Test-Logic-Reset TMS=1 expected=Test-Logic-Reset observed=f
+TRACE cycle=6 time=151 ns phase=negative_expectation from=Test-Logic-Reset TMS=0 expected=Run-Test/Idle observed=c
+STATE_MISMATCH time=171 ns phase=negative_expectation point=after_rising_edge expected=Select-DR-Scan code=7 actual=c
+NEGATIVE_EXPECTATION_DETECTED mutated=Run-Test/Idle,TMS=0 expected=Select-DR-Scan actual=Run-Test/Idle
+Fatal: "tb/tb_tap_fsm.sv", 91: tb_tap_fsm.check_observation: at time 171000 ps
+Intentional reference-table mismatch detected
+$finish called from file "tb/tb_tap_fsm.sv", line 91.
+$finish at simulation time     171 ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 171000 ps

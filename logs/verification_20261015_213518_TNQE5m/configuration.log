@@ -1,0 +1,13 @@
+2026-10-15T21:35:18-03:00
+/Tools/synopsys/vcs/X-2025.06-SP2/bin/vcs
+Top: tb_tap_fsm; TCK: 20 ns; amostragem: subida + 1 ns
+e3363ee25c04e5f4a1db87ca9dfaf326029702e6
+?? logs/verification_20261015_212325_bjacUU/
+?? logs/verification_20261015_213518_TNQE5m/
+?? scripts/
+?? tb/tb_tap_fsm.sv
+db5cdd2bf22249a8efcd5d1bd67a1c323970296987b0a0ca6e83afa0d581228b  rtl/tap_state_pkg.sv
+327bb59e440b7edc98eab2167e31251759f1af557b7d260968db171d758f9721  rtl/tap_fsm.sv
+08ca541ba7b7d35fb018be440b7ef92e2f85aa2e57f39b0a85cdc130b8f22bf6  tb/tb_tap_fsm.sv
+5881d36edb0a55225c152887fd5cab89e839d903fd1ddb091970de5fd19742ce  scripts/run_vcs.sh
+VCS negative exit status: 0; tee exit status: 0
